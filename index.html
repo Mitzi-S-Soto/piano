@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Piano Notes</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+                <h2>Use the Home Row</h2>
+                <h3>A | S | D | F | J | K | L</h3>
+        <div id="page">
+
+        <img src="img/treble.png" alt="treble music symbol"/>
+            <ul id="bars">
+                <li data-key="76" class="note hidden fade">G</li>
+                <li data-key="75" class="note noteLine hidden fade">F</li>
+                <li class="bar">&nbsp;</li>
+                
+                <li data-key="74" class="note hidden">E</li>
+                <li data-key="70" class="note noteLine hidden fade">D</li>
+                <li class="bar">&nbsp;</li>
+                
+                <li data-key="68" class="note hidden fade">C</li>
+                <li data-key="83"class="note noteLine hidden fade">B</li>
+                <li class="bar">&nbsp;</li>
+                
+                <li data-key="65" class="note hidden fade">A</li>
+                <li class="bar">&nbsp;</li>
+                
+                <li class="bar">&nbsp;</li>
+            </ul>
+        
+        </div><!--end page-->
+        <form id="mobile">
+            <input type=text maxlength="20" placeholder="if mobile type here" />
+        </form>
+        
+        <!--key notes audio-->
+        <audio data-key="65" src="notes/68437__pinkyfinger__piano-a.wav"></audio>
+        <audio data-key="83" src="notes/68438__pinkyfinger__piano-b.wav"></audio>
+        <audio data-key="68" src="notes/68440__pinkyfinger__piano-c.wav"></audio>
+        <audio data-key="70" src="notes/68442__pinkyfinger__piano-d.wav"></audio>
+        <audio data-key="74" src="notes/68443__pinkyfinger__piano-e.wav"></audio>
+        <audio data-key="75" src="notes/68446__pinkyfinger__piano-f.wav"></audio>
+        <audio data-key="76" src="notes/68448__pinkyfinger__piano-g.wav"></audio>
+
+    
+</body>
+<script src="js/piano.js"></script>
+</html>

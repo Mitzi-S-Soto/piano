@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+    background: #333 url("../img/bg.jpg");
+    object-fit: fill;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #555;
+    padding-top: 20px;
+}
+#page{
+    margin: 0 auto;
+    width: 300px;
+    height: 230px;
+    background: rgba(225,225,225,0.5);
+    position: relative;
+    top: 15%;
+}
+#page img{
+    position:absolute;
+    left:-60px;
+}
+#page ul{
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+#mobile{
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 30px;
+}
+
+#mobile input[type="text"]{
+    height: 50px;
+    width: 300px;
+    background: #666;
+    border: 3px solid #444;
+    color: #fff;
+    font-size: 30px;
+    padding: 0 10px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.note{
+    margin: 0;
+    padding: 0;
+    padding-top: 1px;
+    margin-top: 2px;
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    left: 140px;
+    z-index: 2;
+    border-bottom: none;
+    background: #111;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 3;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.bar{
+    border-bottom: 3px solid #111;
+    margin: 0 5px;
+    padding-bottom: 30px;
+    height: 1px;
+}
+
+.noteLine{
+    margin-top: 16px;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    display: inline;
+
+}
+
