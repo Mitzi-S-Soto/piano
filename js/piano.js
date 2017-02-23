@@ -12,4 +12,4 @@ function showNote(e) {
     noteActive.className = noteActive.className.replace(" hidden"," active");
 }
 
-window.addEventListener('input', showNote);
+window.addEventListener('keydown', showNote);
