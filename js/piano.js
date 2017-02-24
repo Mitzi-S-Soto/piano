@@ -10,6 +10,7 @@ function getKey(a){
     noteSound.currentTime=0;
     noteSound.play();
     noteActive.className = noteActive.className.replace(" hidden"," active");
+    document.getElementById('textmobile').value = "";
 }
 
 function showNote(e) {
